@@ -1,2 +1,31 @@
 <!--pages/home/page/scroll-view/scroll-view.wxml-->
-<text>pages/home/page/scroll-view/scroll-view.wxml</text>
+<import src="../../../common/foot.wxml" />
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-section-title">
+          <text>Vertical Scroll\n纵向滚动</text>
+      </view>
+      <view class="page-section-spacing">
+        <scroll-view scroll-y="true" style="height: 300rpx" >
+            <view id="demo1" class="demo-text-1" style="height: 300rpx"></view>
+            <view id="demo2"  class="demo-text-2" style="height: 300rpx"></view>
+            <view id="demo3" class="demo-text-3" style="height: 300rpx"></view>
+        </scroll-view>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="page-section-title">
+          <text>Vertical Scroll\n纵向滚动</text>
+      </view>
+      <view class="page-section-spacing">
+        <scroll-view scroll-x="true" style="width: 100%;white-space: nowrap" >
+          <view id="demo1" class="demo-text-1 scroll-view-item_H"></view>
+          <view id="demo2"  class="demo-text-2 scroll-view-item_H"></view>
+          <view id="demo3" class="demo-text-3 scroll-view-item_H"></view>
+      </scroll-view>
+      </view>
+    </view>
+  </view>
+  <template is="foot" />
+</view>

@@ -28,6 +28,21 @@ page {
   flex-grow: 1;
   overflow-x: hidden;
 }
+.page-section{
+  width: 100%;
+  margin-bottom: 60rpx;
+}
+.page-section:last-child{
+  margin-bottom: 0;
+}
+.page-section-title{
+  color:#888888;
+  padding:0rpx 20rpx;
+  font-size:28rpx;
+}
+.page-section-spacing{
+  padding:0rpx 80rpx;
+}
 .demo-text-1{
   position: relative;
   align-items: center;
