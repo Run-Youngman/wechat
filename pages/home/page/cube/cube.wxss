@@ -1,0 +1,25 @@
+/* pages/home/page/cube/cube.wxss */
+.page-section {
+    padding: 80rpx;
+    box-sizing: border-box;
+}
+.cube-body {
+    height: 600rpx;
+    box-sizing: border-box;
+    background: rgb(230, 224, 224);
+}
+.little-cube {
+    width:80rpx;
+    height:40rpx;
+    font-size: 26rpx;
+    display: inline-block;
+    background: greenyellow;
+    margin: 6rpx;
+    text-align: center;
+}
+.little-icon {
+    display: inline-block;
+}
+.btn-area {
+    padding: 0rpx 50rpx;
+}

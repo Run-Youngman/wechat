@@ -1,0 +1,26 @@
+/* pages/home/page/swiper/swiper.wxss */
+.demo-text-1 {
+    height: 150px;
+    background-color: #1aad19;
+    color: #fff;
+    font-size: 36rpx;
+}
+
+.demo-text-2 {
+    height: 150px;
+    background-color: #2782d7;
+    color: #fff;
+    font-size: 36rpx;
+}
+
+.demo-text-3 {
+    height: 150px;
+    background-color: #f1f1f1;
+    color: #353535;
+    font-size: 36rpx;
+}
+
+.swiper-item{
+  display: block;
+  height: 150px;
+}

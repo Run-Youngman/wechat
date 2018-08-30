@@ -1,90 +1,114 @@
 /**app.wxss**/
+
 page {
-  background-color: #F8F8F8;
-  height: 100%;
-  font-size: 32rpx;
-  line-height: 1.6;
+    background-color: #f8f8f8;
+    height: 100%;
+    font-size: 32rpx;
+    line-height: 1.6;
 }
+
+/* 设置主轴为纵向，然后justify-content主轴排列方式，一个页面两个元素，一上一下，实现footer功能 */
+
 .container {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-} 
-.page-foot{
-  margin: 100rpx 0 30rpx 0;
-  text-align: center;
-  color: #1aad19;
-  font-size: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
-.icon-foot{
-  width: 152rpx;
-  height: 23rpx;
+
+.page-foot {
+    margin: 100rpx 0 30rpx 0;
+    text-align: center;
+    color: #1aad19;
+    font-size: 0;
 }
+
+.icon-foot {
+    width: 152rpx;
+    height: 23rpx;
+}
+
+/* flex-grow为1，默认占据剩余所有空间 */
+
 .page-body {
-  width: 100%;
-  flex-grow: 1;
-  overflow-x: hidden;
+    width: 100%;
+    flex-grow: 1;
+    overflow-x: hidden;
 }
-.page-section{
-  width: 100%;
-  margin-bottom: 60rpx;
+
+/* body中的section,默认距离下方60rpx,最后一个元素不做限制 */
+
+.page-section {
+    width: 100%;
+    margin-bottom: 60rpx;
 }
-.page-section:last-child{
-  margin-bottom: 0;
+
+.page-section:last-child {
+    margin-bottom: 0;
 }
-.page-section-title{
-  color:#888888;
-  padding:0rpx 20rpx;
-  font-size:28rpx;
+
+.page-section-title {
+    color: #888;
+    padding: 0rpx 20rpx;
+    font-size: 28rpx;
 }
-.page-section-spacing{
-  padding:0rpx 80rpx;
+
+/* 距离左右边距为80rpx */
+
+.page-section-spacing {
+    box-sizing: border-box;
+    padding: 0rpx 80rpx;
 }
-.demo-text-1{
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  background-color: #1AAD19;
-  color: #FFFFFF;
-  font-size: 36rpx;
+
+.demo-text-1 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #1aad19;
+    color: #fff;
+    font-size: 36rpx;
 }
-.demo-text-1:before{
-  content: 'A';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.demo-text-1:before {
+    content: 'A';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.demo-text-2{
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  background-color: #2782D7;
-  color: #FFFFFF;
-  font-size: 36rpx;
+
+.demo-text-2 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #2782d7;
+    color: #fff;
+    font-size: 36rpx;
 }
-.demo-text-2:before{
-  content: 'B';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.demo-text-2:before {
+    content: 'B';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.demo-text-3{
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  background-color: #F1F1F1;
-  color: #353535;
-  font-size: 36rpx;
+
+.demo-text-3 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    color: #353535;
+    font-size: 36rpx;
 }
-.demo-text-3:before{
-  content: 'C';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.demo-text-3:before {
+    content: 'C';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

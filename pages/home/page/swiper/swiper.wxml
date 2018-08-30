@@ -1,0 +1,15 @@
+<import src="../../../common/foot.wxml" />
+<view class='container'>
+    <view class='page-body'>
+        <view class='page-section page-section-spacing'>
+            <swiper indicator-dots="true">
+                <block wx:for='{{background}}' key='*this'>
+                    <swiper-item>
+                        <view class='swiper-item {{item}}' />
+                    </swiper-item>
+                </block>
+            </swiper>
+        </view>
+    </view>
+    <template is='foot' />
+</view>

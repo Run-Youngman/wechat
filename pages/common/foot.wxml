@@ -2,4 +2,4 @@
   <navigator class="page-foot" url="/pages/home/home" hover-class="none">
     <image class="icon-foot" src="../../../../image/icon_foot.png"></image>
   </navigator>
-</template>
+</template>  

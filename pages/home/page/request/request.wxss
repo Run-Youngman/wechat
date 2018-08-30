@@ -1,0 +1,18 @@
+/* pages/home/page/request/request.wxss */
+.page-body-wording {
+    text-align: center;
+    padding: 200rpx 100rpx;
+}
+
+.request-btn {
+    padding: 0 30rpx;
+    margin-top: 60rpx;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.page-body-text {
+  font-size: 30rpx;
+  line-height: 26px;
+  color: #ccc;
+}

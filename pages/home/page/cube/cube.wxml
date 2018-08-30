@@ -1,0 +1,19 @@
+<import src="../../../common/foot.wxml" />
+<view class='container'>
+    <view class='page-body'>
+        <view class='page-section'>
+            <view class='cube-body'>
+                <block wx:for='{{cube}}' wx:key='*this'>
+                    <view class='little-cube'>{{item.name}}</view>
+                    <view  class='little-icon'>
+                        <icon type='clear' size='10' bindtap='cancelcube' data-cubuid='{{item.id}}'></icon>
+                    </view>
+                </block>
+            </view>
+        </view>
+        <view class='btn-area'>
+            <button type='primary' bindtap='addcube'>add cube</button>
+        </view>
+    </view>
+    <template is='foot' />
+</view>
